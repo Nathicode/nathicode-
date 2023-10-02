@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    animation-duration: 2s;
+    animation-name: ;
+}
+@keyframes body {
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+img {
+    width: 40%;
+    margin: auto;
+   
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    background: #F9A825;
+    width: 70%;
+    height: 40vh;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    margin-top: 2cm;
+    border-radius: 5px;
+    padding: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+@media(min-width: 700px){
+    img {
+        width: 30%;
+    }
+    .img {
+        width: 50%;
+    }
+}
+.desc {
+    color: #F9A825;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 2cm;
+    
+}
+.desc p {
+    font-size: small;
+    font-weight: bold;
+}
+.desc img {
+    width: 40%;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+    /*margin-top: 1cm;*/
+   background: #F9A825;
+   text-align: center;
+   margin: auto;
+   margin-top: 1cm;
+   width: 80%;
+   align-items: center;
+   height: 20vh;
+}
+.project a {
+    width: 70%;
+    
+}
+.contact p {
+    color: whitesmoke;
+    font-weight: bold;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #F9A825;
+    text-align: center;
+    margin-top: 1cm;
+}
+.con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 20vh;
+}
+.con a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+@media(min-width: 400px){
+    .project a {
+        width: 40%;
+    }
+    .project {
+        height: 30vh;
+    }
+}
+div {
+    border-radius: 5px;
+}
+.project, .contact {
+    animation-name: ;
+    animation-duration: 1s;
+}
+@keyframes scroll {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+}
