@@ -74,7 +74,12 @@ img {
 }
 .project a {
     width: 70%;
-    
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 .contact p {
     color: whitesmoke;
@@ -133,4 +138,34 @@ div {
         visibility: visible;
         
     }
+}
+@media(min-width: 1400px){
+    img {
+        width: 100px;
+        
+    }
+    #maker {
+        color: orange;
+    }
+    .img {
+        background: transparent;
+        height: auto;
+    }
+}
+@media(width: 1400px){
+    img {
+        width: 100px;
+        
+    }
+    #maker {
+        color: orange;
+    }
+    .img {
+        background: transparent;
+        height: auto;
+    }
+}
+.project {
+    flex-direction: column;
+    height: 70vh;
 }
